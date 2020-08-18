@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cpanel</title>
+    <link rel="stylesheet" href="css/partials/cpanel.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+
+<body id="control-panel">
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="#">Minha Agenda</a>
+        <a href="study">Lista De Prffys</a>
+    </div>
+
+    <main>
+        <div class="table">
+            <div class="nomeU"></div>
+            <table id="tab" class="tab">
+                <tr>
+                    <th>cost</th>
+                    <th>weekdays</th>
+                    <th>time_from</th>
+                    <th>time_to</th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>{{filters.weekday}}</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <p class="no-results">
+                nenhum Registro No Momento
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>

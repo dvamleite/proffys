@@ -1,0 +1,55 @@
+#control-panel {
+    margin: 0;
+    padding: 0;
+    background: rgb(49, 40, 40);
+}
+
+.menu {
+    min-width: 70rem;
+    text-align: center;
+    background: rgba(91, 66, 116, 0.582);
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    font-size: 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-family: 600;
+    color: white;
+}
+
+
+/* stilo da tabela de proffys*/
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    background: turquoise;
+    width: 10rem;
+    border: 1px solid red;
+}
+
+tr,
+td {
+    margin: 0;
+    width: 10rem;
+    border: 1px solid red;
+    background: wheat;
+    text-align: center;
+}
+
+.no-results {
+    color: red;
+    font-family: 800;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}

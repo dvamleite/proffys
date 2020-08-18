@@ -1,0 +1,45 @@
+#registered-successfully {
+    background: #8268bd;
+}
+
+.imag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    margin: 2rem;
+}
+
+.texto-boas-vindas {
+    margin: 2rem;
+}
+
+.texto-boas-vindas p {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 600;
+    color: rgb(161, 16, 16);
+}
+
+.buttons-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lawngreen;
+    width: 30rem;
+    height: 4rem;
+    text-align: center;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+.buttons-conteiner a {
+    font-size: 2rem;
+    text-decoration: none;
+}
