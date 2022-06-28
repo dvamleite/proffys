@@ -1,5 +1,5 @@
 {
-    "name": "Projeto_ocktseat_camp2",
+    "name": "Projeto_Rocktseat_camp2",
     "scripts": {
         "dev": "nodemon src/serve.js"
     },
